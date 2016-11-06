@@ -1,5 +1,5 @@
 local function run(msg, matches)
- local makan = 287147726
+ local makan = 253980997
    local hash = 'rank:variables'
    local text = ''
      local value = redis:hget(hash, msg.from.id)
