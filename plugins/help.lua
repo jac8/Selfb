@@ -89,11 +89,11 @@ function run(msg, matches)
 
 .......................................
 📡
-- @BeatBot_Team
+- @HellSudo
 .......................................]]
     if matches[1] == 'help' and is_sudo(msg) then
       send_large_msg("user#id"..msg.from.id, help)      
-   return '💥 Help was sent in your pv '
+   return '💥 پیام راهنمایی به پیوی ارسال شد. '
     end
 end 
 
